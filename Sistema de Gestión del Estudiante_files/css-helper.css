@@ -1,0 +1,346 @@
+/*------ MARGIN TOP ------*/
+
+.mt0{
+    margin-top: 0px !important;
+}
+
+.mt5{
+    margin-top: 5px;
+}
+
+.mt7{
+    margin-top: 7px;
+}
+
+.mt9{
+	margin-top: 9px;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.mt15{
+    margin-top: 15px;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+
+.mt5p{
+	margin-top: 5%;
+}
+
+/*------------------------*/
+
+/*------ MARGIN BOTTOM ------*/
+.mb0{
+    margin-bottom: 0px;
+}
+
+.mb5{
+    margin-bottom: 5px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+.mb20{
+    margin-bottom: 20px;
+}
+
+/*--------------------------*/
+
+/*------ TEXT ALIGN ------*/
+.txt-left{
+    text-align: left !important;
+}
+
+.txt-right{
+    text-align: right !important;
+}
+
+.txt-center{
+	text-align: center !important;
+}
+
+/*--------------------------*/
+
+/*------ MARGIN RIGHT ------*/
+.mr0{
+	margin-right: 0px !important;
+}
+.mr10{
+    margin-right: 10px;
+}
+
+.mr15{
+    margin-right: 15px;
+}
+
+.mr20{
+    margin-right: 15px;
+}
+
+.mr30{
+    margin-right: 15px;
+}
+/*--------------------------*/
+
+/*------ MARGIN LEFT ------*/
+.ml0{
+    margin-left: 0px !important;
+}
+
+.ml5{
+	margin-left: 5px;
+}
+
+.ml10{
+    margin-left: 10px !important;
+}
+
+.ml15{
+    margin-left: 15px;
+}
+/*--------------------------*/
+/*------ PADDING ------*/
+.pd10{
+	padding:10px;
+}
+
+/*------ PADDING LEFT ------*/
+.pl0{
+    padding-left: 0px;
+}
+.pl5{
+	padding-left: 5px;
+}
+.pl15{
+    padding-left: 15px;
+}
+.pl50{
+	padding-left: 50px;
+}
+/*--------------------------*/
+
+/*------ PADDING RIGHT ------*/
+.pr0{
+    padding-right: 0px !important;
+}
+.pr5{
+	padding-right: 5px !important;
+}
+.pr15{
+    padding-right: 15px !important;
+}
+.pr25{
+    padding-right: 25px !important;
+}
+.pr50{
+	padding-right: 50px !important;
+}
+/*--------------------------*/
+
+/*------ PADDING TOP ------*/
+.pt0{
+    padding-top: 0px;
+}
+
+.pt3{
+	padding-top: 3px;
+}
+
+.pt7{
+    padding-top: 7px;
+}
+
+.pt15{
+    padding-top: 15px;
+}
+/*--------------------------*/
+
+/*------ PADDING BOTTOM ------*/
+
+.pb3{
+	padding-bottom: 3px;
+}
+
+/*--------------------------*/
+
+/*--------TEXT LOWERCASE-----*/
+.txt-lowercase{
+    text-transform: lowercase;
+}
+/*--------------------------*/
+
+/*-------- COLOR -----*/
+.cl-fafafa{
+    color: #fafafa;
+}
+.cl-unl{
+	color: #008bb8;
+}
+/*--------------------------*/
+
+/*--------MENSAJES ERROR-----*/
+.error-message{
+    margin: 2px 0px;
+    padding: 3px 5px 3px 15px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.error-message > ul {
+    padding-left: 15px;
+}
+
+.fin-charla-wrng{
+    float: right;
+    margin-top: 4px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.fin-charla-wrng-asistente{
+    float: right;
+    margin-top: 3px;
+    padding: 5px;
+    font-size: 12px;
+}
+/*--------------------------*/
+
+
+/*--------FONT SIZE------*/
+.fs-15{
+    font-size: 15px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-30{
+	font-size: 30px;
+}
+
+
+.fs-35{
+	font-size: 35px;
+}
+
+.fs-50{
+	font-size: 50px;
+}
+
+.fs-1-8rem{
+	font-size: 1.8rem;
+}
+.fs-2-5rem{
+	font-size: 2.5rem;
+}
+.fs-3rem{
+	font-size: 3rem;
+}
+
+.fs-2em{
+	font-size: 2em;
+}
+.fs-2-5em{
+	font-size: 2.5em;
+}
+.fs-3-5em{
+	font-size: 3.5em;
+}
+.fs-5x{
+	font-size: 5em;
+}
+
+.fs-8x{
+	font-size: 8em;
+}
+
+
+/*----------------------*/
+
+/*--------Formulario Dinamico------*/
+.frm-dnm-item{
+    margin-bottom: 15px;
+}
+
+.frm-dnm-item > .checkbox{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*---------------------------------*/
+
+
+/*--------- COLUMNAS 20% ---------*/
+@media(min-width: 768px){
+	.col-sm-20p{
+		float: left;
+		width: 20%;
+		position: relative;
+	    min-height: 1px;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	}
+	
+}
+
+/* --------------------------------*/
+
+
+/*--------- WIDTH ----------------*/
+.w20p{
+	width: 20%;
+}
+
+.w100p{
+	width: 100% !important;
+}
+/*--------- FIN: WIDTH -----------*/
+
+
+/*--------- RIGHT ----------------*/
+.r-3{
+	right: -3px !important;	
+}
+.r0{
+	right: 0px !important;	
+}
+.r25{
+	right: 25px !important;	
+}
+.r35{
+	right: 35px !important;	
+}
+.r55{
+	right: 55px !important;
+}
+/*--------- FIN: RIGHT -----------*/
+
+
+/*-------------- FONT-WEIGHT ----------------*/
+.fw700{
+	font-weight: 700 !important;
+}
+/*--------- FIN: RIGHT ----------------*/
+
+
+
+/*-------------- TABLE ----------------*/
+.table-row-clickable > tbody > tr{
+	cursor:pointer;
+}
+/*------------ FIN TABLE -------------*/

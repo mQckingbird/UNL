@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+	body{
+		 background-image: url(../../images/bgpattern.png);
+	}
+	.header-bienestar{
+		 text-align:left;
+		 background-color: #f5f5f5;
+	   	 padding:10px;
+	   	 border: 1px solid;
+	   	 border-color: #ddd;
+	}
+	.header-bienestar:first-of-type{
+		margin-top:0px;
+	}
+
+/* Formularios */
+	.formularios-bienestar .form-control {
+		display:inline-block;
+	}
+	.formularios-bienestar input.form-control {
+		width:50%;
+	}
+	.formularios-bienestar textarea.form-control {
+		width:50%;
+	}
+	.formularios-bienestar select.form-control {
+		width:50%;
+	}
+	.formularios-bienestar label.form-label {
+		 margin-bottom: 0;
+	  	 padding-top: 7px;
+		 font-weight: normal;
+	}
+	
+	.botonera{
+		 text-align:right;
+		 background-color: #f5f5f5;
+	   	 padding:10px;
+	   	 border: 1px solid;
+	   	 border-color: #ddd;
+	}
+	
+	.requisito-aceptado{
+		position: absolute;
+	    transform: rotate(-10deg);
+	    font-size: 3em;
+	    color: rgba(0,150,0,0.3);
+	    right: 0.8em;
+	    z-index: 0;
+	    top: 0.5em;
+	    border-bottom: 3px solid rgba(0,150,0,0.3);
+	    border-top: 3px solid rgba(0,150,0,0.3);
+	    padding: 0;
+	}
